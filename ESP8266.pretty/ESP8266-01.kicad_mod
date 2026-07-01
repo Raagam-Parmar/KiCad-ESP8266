@@ -1,0 +1,349 @@
+(footprint "ESP8266-01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Module, ESP-8266, ESP-01, 8 pin")
+	(tags "Module ESP-8266 ESP8266")
+	(property "Reference" "REF**"
+		(at -4.572 2.286 90)
+		(layer "F.SilkS")
+		(uuid "31ad1f40-0b78-4123-8edd-c327eb8da5d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ESP8266-01"
+		(at 3.556 -9.652 90)
+		(layer "F.Fab")
+		(uuid "ee2e365f-3a10-4ef2-96c8-9d491c37d6a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4d3121e-0cb4-40c1-ae45-cf4f9104abd2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc73f668-1ab6-4c92-829e-c2b79a4a8547")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.302 -20.32)
+		(end 10.922 -20.32)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ef37188-1a6d-4bfb-9f04-12ec5064ee94")
+	)
+	(fp_line
+		(start -3.302 4.318)
+		(end -3.302 -20.32)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d29b286-2d24-42c7-b685-9e9151e801f6")
+	)
+	(fp_line
+		(start -1.27 -1.27)
+		(end -1.27 1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fef4bc7-2a6d-406e-b952-84a3783fc8f0")
+	)
+	(fp_line
+		(start -1.27 1.27)
+		(end -1.27 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87e4d745-bbac-4d9c-bce1-7c295ea7474e")
+	)
+	(fp_line
+		(start -1.27 3.81)
+		(end 1.27 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34f36d07-86d1-4a68-9731-6637318e29b2")
+	)
+	(fp_line
+		(start 1.27 3.81)
+		(end 8.89 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d65778c-fef6-415b-8574-644cdc0c5c71")
+	)
+	(fp_line
+		(start 8.89 -1.27)
+		(end -1.27 -1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36991b2b-9fd1-4db0-94ad-45a13f6808a3")
+	)
+	(fp_line
+		(start 8.89 3.81)
+		(end 8.89 -1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c18a6ea-773a-400c-bbea-946c5af050dc")
+	)
+	(fp_line
+		(start 10.922 -20.32)
+		(end 10.922 4.318)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82690412-059d-44dc-8411-1d27db241468")
+	)
+	(fp_line
+		(start 10.922 4.318)
+		(end -3.302 4.318)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0977ca44-7f86-4ed7-aec0-e8cfb164cd61")
+	)
+	(fp_line
+		(start -1.75 -1.76)
+		(end 9.4 -1.76)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "90c874d2-59a8-405b-a437-4d42d1c59fee")
+	)
+	(fp_line
+		(start -1.75 4.29)
+		(end -1.75 -1.76)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "90bdb693-e0db-47b6-9c8f-d49219557d21")
+	)
+	(fp_line
+		(start -1.75 4.29)
+		(end 9.4 4.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "576fb708-2cfd-498d-b276-534e51355ac2")
+	)
+	(fp_line
+		(start 9.4 4.29)
+		(end 9.4 -1.76)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7023d924-02bb-45e1-bd16-bec546ea90af")
+	)
+	(fp_line
+		(start -3.302 -20.32)
+		(end 10.922 -20.32)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "63b082fd-73d6-489e-b6e1-057edf2ba595")
+	)
+	(fp_line
+		(start -3.302 4.318)
+		(end -3.302 -20.32)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58cb8012-3588-4964-b6a4-cd6a9e938f90")
+	)
+	(fp_line
+		(start 10.922 -20.32)
+		(end 10.922 4.318)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dfb955ad-4bc9-4ef1-91b2-f16c30ec9e34")
+	)
+	(fp_line
+		(start 10.922 4.318)
+		(end -3.302 4.318)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "021e497d-480d-4ef5-b30e-e55bac61e5a0")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 90)
+		(size 1.7272 1.7272)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "b033f304-1b32-4413-9990-701c2de5b261")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54 90)
+		(size 1.7272 1.7272)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "31b8d2d2-0f8a-41ef-9c9c-2bbdc703a42d")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0 90)
+		(size 1.7272 1.7272)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "c8193402-cb47-4bde-8a7f-a2ba41b32171")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 2.54 90)
+		(size 1.7272 1.7272)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "c4d0a068-0c13-4c13-9df7-fca28834a3dc")
+	)
+	(pad "5" thru_hole circle
+		(at 5.08 0 90)
+		(size 1.7272 1.7272)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "cb49e5f2-437c-4d55-ab8a-b206c0392d2a")
+	)
+	(pad "6" thru_hole circle
+		(at 5.08 2.54 90)
+		(size 1.7272 1.7272)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "1dd564ac-bcfc-449f-ae18-406ea65db299")
+	)
+	(pad "7" thru_hole rect
+		(at 7.62 0 90)
+		(size 1.7272 1.7272)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "725047c4-84fb-40af-8705-f9f22876d3ea")
+	)
+	(pad "8" thru_hole circle
+		(at 7.62 2.54 90)
+		(size 1.7272 1.7272)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "ba3ef7fd-908e-419e-b81e-bda75653ffdf")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "e98f5ee1-d098-44c4-b2a2-da994595d751")
+		(name "No Copper")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -3.220247 -20.343994) (xy 10.849091 -20.319441) (xy 10.823148 -13.444441) (xy -3.24619 -13.468994)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_LIBRARY_DIR}/KiCad-ESP8266/ESP8266.3dshapes/ESP8266-01.step"
+		(offset
+			(xyz 11.05 -4.4 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
